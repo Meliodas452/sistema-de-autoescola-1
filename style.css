@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 1px;
+}
+
+.empty {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+}
+
+.time {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #d0e4f5;
+}
+
+
+body {
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    line-height: 100vh;
+}

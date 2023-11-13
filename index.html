@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iK25FO9MHl/8RnFqNjs4pHALc8V+1tZLJoqdqzBbcFfRqBdRU/6L4N2ZZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Divinópolis</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="styledash.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <img src="divinopolis.svg" alt="Logo" style="width: 70px; height:70px;">
+                        </span>
+                        <span class="title">Divinópolis</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="grid-outline"></ion-icon>
+                        </span>
+                        <span class="title">Painel</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Alunos</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="title">Mensagens</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">DÚVIDAS</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Configurações</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="marca.html" target="_blank">
+                        <span class="icon">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </span>
+                        <span class="title">Aulas</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sair </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Pesquise Aqui">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="customer01.png" alt="">
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,504</div>
+                        <div class="cardName">Visualização</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Vendas</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">15</div>
+                        <div class="cardName">Alunos Ativos</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">R$7,842</div>
+                        <div class="cardName">Arrecadado</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================ Order Details List ================= -->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Vendas Recentes</h2>
+                        <a href="#" class="btn">Ver Todos</a>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Nome</td>
+                                <td>Valor</td>
+                                <td>Pagamento</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td> aulas </td>
+                                <td>R$120</td>
+                                <td>Pago</td>
+                                <td><span class="status delivered">Pago</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>aulas de moto</td>
+                                <td>R$110</td>
+                                <td>Deve</td>
+                                <td><span class="status pending">Pendente </span></td>
+                            </tr>
+
+                            <tr>
+                                <td>aulas de carro</td>
+                                <td>R$1200</td>
+                                <td>Pago</td>
+                                <td><span class="status return">Entrar em contato</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>primeira habilitação</td>
+                                <td>R$620</td>
+                                <td>Deve</td>
+                                <td><span class="status inProgress">Em aberto</span></td>
+                            </tr>
+
+                            <tr>
+                                <td> aulas</td>
+                                <td>R$1200</td>
+                                <td>Pago</td>
+                                <td><span class="status delivered">Pago</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>aulas de moto</td>
+                                <td>R$110</td>
+                                <td>Deve</td>
+                                <td><span class="status pending">Pendente </span> </td>
+                            </tr>
+
+                            <tr>
+                                <td>aulas de carro 2kg </td>
+                                <td>R$2000</td>
+                                <td>Pago</td>
+                                <td><span class="status return">Entrar em contato </em></span></td>
+                            </tr>
+
+                            <tr>
+                                <td>primeira habilitação</td>
+                                <td>R$620</td>
+                                <td>Deve</td>
+                                <td><span class="status inProgress">Em andamento </span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- ================= New Customers ================ -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2> Ùltimos Alunos</h2>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="customer01.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>David <br> <span>Recife</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="customer02.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>MARIA <br> <span>Caruaru</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="customer01.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Pedro <br> <span>Recife</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="customer02.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Antonieta <br> <span>Caruaru</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="customer01.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Daniel <br> <span>Recife</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="customer02.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Barbara <br> <span>Caruaru</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="customer01.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>João <br> <span>Recife</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="customer02.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Laura <br> <span>Caruaru</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/maindash.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
